@@ -2,11 +2,10 @@ package com.company;
 
 public class Employee {
     private EmployeeType employeeType;
-    private double salary;
+    private static double salary = 800;
 
-    public Employee(EmployeeType employeeType, double salary) {
+    public Employee(EmployeeType employeeType) {
         this.employeeType = employeeType;
-        this.salary = salary;
     }
 
     public EmployeeType getEmployeeType() {

@@ -8,13 +8,13 @@ public class Main {
     public static void main(String[] args) {
         List<Employee> ems = new ArrayList<>();
 
-        ems.add(new Employee(EmployeeType.BOSS, 800));
-        ems.add(new Employee(EmployeeType.WORKER, 800));
-        ems.add(new Employee(EmployeeType.WORKER,  800));
-        ems.add(new Employee(EmployeeType.WORKER, 800));
-        ems.add(new Employee(EmployeeType.WORKER, 800));
-        ems.add(new Employee(EmployeeType.WORKER, 800));
-        ems.add(new Employee(EmployeeType.BOSS,800));
+        ems.add(new Employee(EmployeeType.BOSS));
+        ems.add(new Employee(EmployeeType.WORKER));
+        ems.add(new Employee(EmployeeType.WORKER));
+        ems.add(new Employee(EmployeeType.WORKER));
+        ems.add(new Employee(EmployeeType.WORKER));
+        ems.add(new Employee(EmployeeType.WORKER));
+        ems.add(new Employee(EmployeeType.BOSS));
 
         Book Qnko = new Book(10, "Qnko", 3000, Format.А3, TypeOfPaper.MAGAZINE);
         Book HP = new Book(10, "Harry Potter", 3000, Format.А3 , TypeOfPaper.NEWSPAPER);
