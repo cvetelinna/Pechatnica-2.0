@@ -24,8 +24,7 @@ public class Main {
         books.add(Qnko);
 
         BookIncomeOutcome ind = new BookIncomeOutcome(books, ems);
-        System.out.println(ind.sumBookExpenses());
-        System.out.println(ind.sumBookIncome());
+        ind.info();
         ind.SumSalary();
 
         List<Machine> mcs = new ArrayList<>();

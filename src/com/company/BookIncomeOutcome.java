@@ -56,6 +56,14 @@ public class BookIncomeOutcome{
         System.out.println(PrintRegular);
     }
 
+    public void info(){
+        var printSum = String.format("Book consumatives cost: %.2f", sumBookExpenses());
+        System.out.println(printSum);
+
+        var printWin = String.format("We win: %.2f", sumBookIncome());
+        System.out.println(printWin);
+    }
+
 
     @Override
     public String toString() {
